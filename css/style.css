@@ -7,6 +7,7 @@ body, header, article {
 article, header {
 	max-width: 900px;
 	margin: auto;
+	padding-bottom: 40px;
 }
 
 h1, h2, h3, h4, a, p, nav {
@@ -16,12 +17,16 @@ h1, h2, h3, h4, a, p, nav {
 h1 a {
 	color: #f8ce78;
 	text-decoration: none;
-	font-size: 60px;
+	font-size: 68px;
+}
+
+h2 {
+	font-size: 36px;
 }
 
 nav a {
 	color: #dddddd;
-	font-size: 24px;
+	font-size: 28px;
 	margin: 0px 10px 10px 0px;
 	text-decoration: none;
 	padding-bottom: 3px;
@@ -31,12 +36,12 @@ nav a {
 h2 a {
 	color: #000000;
 	text-decoration: none;
-	font-size: 36px;
+	font-size: 60px;
 }
 
 /*this is a pseudo-element*/
 p::first-letter {
-	font-size: 120px;
+	font-size: 128px;
 	color: #dddddd;
 	float: left;
 	margin: -27px 10px 10px 0px;
@@ -50,7 +55,7 @@ p {
 
 h3 {
 	color: #d7cdcc;
-	font-size: 32px;
+	font-size: 44px;
 }
 
 h4 a {
