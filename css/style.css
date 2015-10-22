@@ -1,18 +1,16 @@
 body, header, article {
 	background-color: #ffffff;
 	font-family: lato;
-	margin: 0px 40px;
 	font-weight: 300;
-	border: 2px solid black;
 }
 
-article {
+article, header {
 	max-width: 900px;
+	margin: auto;
 }
 
 h1, h2, h3, h4, a, p, nav {
 	font-weight: 300;
-	border: 2px solid black;
 }
 
 h1 a {
@@ -43,7 +41,6 @@ p::first-letter {
 	float: left;
 	margin: -27px 10px 10px 0px;
 	padding: 0px;
-	border: 1px solid black;
 	vertical-align: top;
 }
 
@@ -60,5 +57,4 @@ h4 a {
 	float: right;
 	color: #f8ce78;
 	font-size: 24px;
-	margin-right: 20px;
 }
