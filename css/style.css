@@ -35,3 +35,8 @@ span {
 	float: left;
 	margin: 0px 5px 5px 0px;
 }
+
+
+header { border: 1px solid blue; }
+nav { border: 1px solid green; }
+article { border: 1px solid purple; }
