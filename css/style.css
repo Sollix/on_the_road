@@ -1,8 +1,9 @@
 body {
 	font-family: lato;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	margin: 0px 40px;
 	font-weight: normal;
+	background: url(../images/giphy.gif) repeat;
 }
 
 h1, h2, h3, h4, nav {
@@ -35,3 +36,8 @@ span {
 	float: left;
 	margin: 0px 5px 5px 0px;
 }
+
+
+header { border: 1px solid blue; }
+nav { border: 1px solid green; }
+article { border: 1px solid purple; }
