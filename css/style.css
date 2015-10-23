@@ -10,6 +10,10 @@ article, header {
 	padding-bottom: 40px;
 }
 
+article {
+	border-bottom: 2px solid #dddddd;
+}
+
 h1, h2, h3, h4, a, p, nav {
 	font-weight: 300;
 }
